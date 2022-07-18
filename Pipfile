@@ -5,9 +5,9 @@ verify_ssl = true
 
 [pipenv]
 allow_prereleases = true
- 
+
 [packages]
-streamlit = "1.9.2"
+streamlit = {path = "./streamlit-1.11.0-py2.py3-none-any.whl"}
 opencv-python-headless = ">=4.5"
 # backports.weakref = "*"
 # opencv-python = "*"
@@ -15,4 +15,3 @@ opencv-python-headless = ">=4.5"
 [dev-packages]
 black = "*"  # Pretty formatting of Python code
 pynvim = "*" # Allows nvim users to use black formatting
-
